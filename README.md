@@ -5,13 +5,15 @@
 拍卖行设置起拍价格，拍卖时间
 ```solidity
 putOncommodity(uint256 pid,uint256 price,uint256 time)
-```solidity
+```
 ### 出价人出价
 ```solidity
 bid(uint256 pid)
-```solidity
+```
 ###拍卖时间结束后拍卖行结束拍卖
+```solidity
 auctionEnd(uint256 pid)
+```
 ### 获取商品信息
 getName(uint256 pid)
 ### 获取商品状态
